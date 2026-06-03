@@ -1,0 +1,21 @@
+// Auto-generated from ui/css/styles.css - DO NOT EDIT
+#pragma once
+
+const char* STYLES_CSS = R"UIEOF(
+/* Custom styles that Tailwind doesn't cover */
+
+/* Status indicator pulse */
+@keyframes pulse-dot {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+}
+.pulse-dot {
+    animation: pulse-dot 2s ease-in-out infinite;
+}
+
+/* API endpoint hover effect */
+.api-endpoint:hover {
+    transform: translateX(4px);
+    background-color: rgb(243 244 246);
+}
+)UIEOF";
