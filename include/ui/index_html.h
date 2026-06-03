@@ -1,7 +1,7 @@
 // Auto-generated from ui/index.html - DO NOT EDIT
 #pragma once
 
-const char* INDEX_HTML = R"UIEOF(
+const char* INDEX_HTML = R"XHTMLDELIM(
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -39,4 +39,4 @@ const char* INDEX_HTML = R"UIEOF(
     <script src="/js/app.js"></script>
 </body>
 </html>
-)UIEOF";
+)XHTMLDELIM";

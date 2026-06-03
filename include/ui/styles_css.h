@@ -1,7 +1,7 @@
 // Auto-generated from ui/css/styles.css - DO NOT EDIT
 #pragma once
 
-const char* STYLES_CSS = R"UIEOF(
+const char* STYLES_CSS = R"XHTMLDELIM(
 /* Custom styles that Tailwind doesn't cover */
 
 /* Status indicator pulse */
@@ -18,4 +18,4 @@ const char* STYLES_CSS = R"UIEOF(
     transform: translateX(4px);
     background-color: rgb(243 244 246);
 }
-)UIEOF";
+)XHTMLDELIM";

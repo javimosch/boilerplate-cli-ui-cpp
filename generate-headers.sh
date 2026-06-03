@@ -6,7 +6,7 @@ set -e
 UI_DIR="ui"
 INCLUDE_DIR="include/ui"
 
-# Function to convert file to header with custom delimiter
+# Function to convert file to header with unique delimiter
 convert_to_header() {
     local input_file="$1"
     local output_file="$2"
@@ -15,9 +15,9 @@ convert_to_header() {
     echo "// Auto-generated from $input_file - DO NOT EDIT" > "$output_file"
     echo "#pragma once" >> "$output_file"
     echo "" >> "$output_file"
-    echo "const char* $var_name = R\"UIEOF(" >> "$output_file"
+    echo "const char* $var_name = R\"XHTMLDELIM(" >> "$output_file"
     cat "$input_file" >> "$output_file"
-    echo ")UIEOF\";" >> "$output_file"
+    echo ")XHTMLDELIM\";" >> "$output_file"
     
     echo "  Generated: $output_file"
 }

@@ -1,7 +1,7 @@
 // Auto-generated from ui/js/components/StatusCard.js - DO NOT EDIT
 #pragma once
 
-const char* StatusCard_JS = R"UIEOF(
+const char* StatusCard_JS = R"XHTMLDELIM(
 // StatusCard - Displays a status metric
 const StatusCard = {
     props: {
@@ -41,4 +41,4 @@ const StatusCard = {
         }
     }
 };
-)UIEOF";
+)XHTMLDELIM";

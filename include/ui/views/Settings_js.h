@@ -1,7 +1,7 @@
 // Auto-generated from ui/js/views/Settings.js - DO NOT EDIT
 #pragma once
 
-const char* Settings_JS = R"UIEOF(
+const char* Settings_JS = R"XHTMLDELIM(
 // Settings View
 const SettingsView = {
     template: `
@@ -131,4 +131,4 @@ const SettingsView = {
         return { settings, accentColors, saveSettings, saveMessage };
     }
 };
-)UIEOF";
+)XHTMLDELIM";

@@ -1,7 +1,7 @@
 // Auto-generated from ui/js/views/Dashboard.js - DO NOT EDIT
 #pragma once
 
-const char* Dashboard_JS = R"UIEOF(
+const char* Dashboard_JS = R"XHTMLDELIM(
 // Dashboard View
 const DashboardView = {
     template: `
@@ -118,4 +118,4 @@ const DashboardView = {
         return { status, endpoints, uptime, lastResponse, methodColor, testEndpoint, fetchStatus };
     }
 };
-)UIEOF";
+)XHTMLDELIM";

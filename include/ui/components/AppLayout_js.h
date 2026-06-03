@@ -1,7 +1,7 @@
 // Auto-generated from ui/js/components/AppLayout.js - DO NOT EDIT
 #pragma once
 
-const char* AppLayout_JS = R"UIEOF(
+const char* AppLayout_JS = R"XHTMLDELIM(
 // AppLayout - Main layout wrapper
 const AppLayout = {
     template: `
@@ -43,4 +43,4 @@ const AppLayout = {
         return { sidebarOpen, currentView };
     }
 };
-)UIEOF";
+)XHTMLDELIM";

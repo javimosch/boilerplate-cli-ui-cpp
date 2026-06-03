@@ -1,7 +1,7 @@
 // Auto-generated from ui/js/components/Sidebar.js - DO NOT EDIT
 #pragma once
 
-const char* Sidebar_JS = R"UIEOF(
+const char* Sidebar_JS = R"XHTMLDELIM(
 // Sidebar navigation component
 const Sidebar = {
     props: {
@@ -78,4 +78,4 @@ const Sidebar = {
         return { navItems, sidebarOpen, handleNavigate };
     }
 };
-)UIEOF";
+)XHTMLDELIM";

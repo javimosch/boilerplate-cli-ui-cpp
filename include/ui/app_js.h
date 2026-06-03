@@ -1,7 +1,7 @@
 // Auto-generated from ui/app.js - DO NOT EDIT
 #pragma once
 
-const char* APP_JS = R"UIEOF(
+const char* APP_JS = R"XHTMLDELIM(
 // Main Vue Application with Hashbang Routing
 const { createApp, ref, onMounted, onUnmounted, provide } = Vue;
 
@@ -65,4 +65,4 @@ app.component('settings-view', SettingsView);
 
 // Mount
 app.mount('#app');
-)UIEOF";
+)XHTMLDELIM";
