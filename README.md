@@ -4,7 +4,7 @@ C++ CLI with embedded web UI. Single binary, no runtime dependencies.
 
 Part of [SuperCLI](https://github.com/javimosch/supercli) - build CLI/UI plugins fast for 2026.
 
-**Other versions**: [Go+Vue](https://github.com/javimosch/boilerplate-cli-ui-go-v2-vue) | [Rust+Vue](https://github.com/javimosch/boilerplate-cli-ui-rust) | [.NET+Vue](https://github.com/javimosch/boilerplate-cli-ui-dotnet) | [Nim](https://github.com/javimosch/boilerplate-cli-ui-nim) | [Node](https://github.com/javimosch/boilerplate-cli-ui-node) | [Python](https://github.com/javimosch/boilerplate-cli-ui-python)
+**Other versions**: [Go+Vue](https://github.com/javimosch/boilerplate-cli-ui-go-v2-vue) | [Rust+Vue](https://github.com/javimosch/boilerplate-cli-ui-rust) | [.NET+Vue](https://github.com/javimosch/boilerplate-cli-ui-dotnet) | [Nim](https://github.com/javimosch/boilerplate-cli-ui-nim) | [Node](https://github.com/javimosch/boilerplate-cli-ui-node) | [Python](https://github.com/javimosch/boilerplate-cli-ui-python) | [Zig](https://github.com/javimosch/boilerplate-cli-ui-zig)
 
 ## Architecture
 
