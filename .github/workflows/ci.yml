@@ -21,6 +21,22 @@ jobs:
       - name: Smoke test
         run: ./build/boilerplate-cli-ui-cpp version
 
+
+      # The boilerplates are comparison instruments: they must all implement the
+      # same contract, or comparing their binary sizes is meaningless. This
+      # proves it instead of asserting it.
+      - name: Install machin (for the conformance harness)
+        run: curl -fsSL https://raw.githubusercontent.com/javimosch/machin/main/install.sh | sh
+      - run: echo "$HOME/.local/bin" >> $GITHUB_PATH
+
+      - name: Build the conformance harness
+        run: |
+          git clone --depth 1 https://github.com/javimosch/cli-spec-conformance /tmp/csc
+          (cd /tmp/csc && ./build.sh)
+
+      - name: Spec conformance
+        run: /tmp/csc/cli-spec-conformance check ./build/boilerplate-cli-ui-cpp --specs output,guide,daemon
+
       - name: Report binary size
         run: |
           set -e
